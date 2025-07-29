@@ -1,0 +1,68 @@
+questions =  [
+    //individualist questions
+    {"id": 0, "question": "Others often have a difficult time understanding me.", "effects": {"auth": 1}},
+    {"id": 1, "question": "I hate being told what to do.", "effects": {"auth": 1}},
+    {"id": 2, "question": "It's hard for me to trust other people.", "effects": {"auth": 1}},
+    {"id": 3, "question": "I'm often in my own head.", "effects": {"auth": 1}},
+    //collectivist questions
+    {"id": 4, "question": "I fit into the culture around me.", "effects": {"auth": -1}},
+    {"id": 5, "question": "When there's a party I like to be with everybody else.", "effects": {"auth": -1}},
+    {"id": 6, "question": "I have a lot of friends.", "effects": {"auth": -1}},
+    {"id": 7, "question": "I tend to follow rules.", "effects": {"auth": -1}},
+    //stoic questions
+    {"id": 8, "question": "I like peace and quiet.", "effects": {"right": 1}},
+    {"id": 9, "question": "I'd prefer a relaxing chat to a roudy conversation or debate.", "effects": {"right": 1}},
+    {"id": 10, "question": "An afternoon in the park sounds better than a night in the club.", "effects": {"right": 1}},
+    {"id": 11, "question": "I'm slow to anger.", "effects": {"right": 1}},
+    //passionate questions
+    {"id": 12, "question": "I struggle to contain my emotions.", "effects": {"right": -1}},
+    {"id": 13, "question": "I am very expressive.", "effects": {"right": -1}},
+    {"id": 14, "question": "People know what I'm feeling.", "effects": {"right": -1}},
+    {"id": 15, "question": "I love to dance.", "effects": {"right": -1}},
+    //blue questions
+    {"id": 16, "question": "Truth is the most important thing to me.", "effects": {"auth": 1, "right": 1, "prog": 1}},
+    {"id": 17, "question": "I love reading.", "effects": {"auth": 1, "right": 1}},
+    {"id": 18, "question": "People often struggle to understand my ideas.", "effects": {"auth": 1, "right": 1}},
+    {"id": 19, "question": "I am willing to investigate thoughts which scare myself or others.", "effects": {"auth": 1, "right": 1, "prog": -1}},
+    {"id": 20, "question": "Philosophy is interesting to me.", "effects": {"auth": 1, "right": 1}},
+    {"id": 21, "question": "I love the natural sciences.", "effects": {"auth": 1, "right": 1}},
+    {"id": 22, "question": "I am bored by physical activity.", "effects": {"auth": 1, "right": 1}},
+    {"id": 23, "question": "I am a deep thinker.", "effects": {"auth": 1, "right": 1}},
+    //purple questions
+    {"id": 24, "question": "It is important to me that I should be able to impart my will on the world around me.", "effects": {"auth": 1, "right": -1}},
+    {"id": 25, "question": "I feel most relaxed when I am the one in charge.", "effects": {"auth": 1, "right": -1}},
+    {"id": 26, "question": "People tend to listen to me.", "effects": {"auth": 1, "right": -1}},
+    {"id": 27, "question": "If someone like me were in charge, the world would be a better place.", "effects": {"auth": 1, "right": -1}},
+    {"id": 28, "question": "I consider myself a visionary.", "effects": {"auth": 1, "right": -1}},
+    {"id": 29, "question": "My job is to bring order to disorder.", "effects": {"auth": 1, "right": -1, "prog": 1}},
+    {"id": 30, "question": "There should be no authority over me.", "effects": {"auth": 1, "right": -1, "prog": -1}},
+    {"id": 31, "question": "I am strong-willed.", "effects": {"auth": 1, "right": -1}},
+    //red questions
+    {"id": 32, "question": "I like working to bring about the vision of a leader I think is good.", "effects": {"auth": -1, "right": -1, "prog": 1}},
+    {"id": 33, "question": "I identify more with my body than my mind.", "effects": {"auth": -1, "right": -1}},
+    {"id": 34, "question": "I exercise often.", "effects": {"auth": -1, "right": -1}},
+    {"id": 35, "question": "I care more about practical concerns than ideological ones.", "effects": {"auth": -1, "right": -1}},
+    {"id": 36, "question": "I would make a good soldier.", "effects": {"auth": -1, "right": -1}},
+    {"id": 37, "question": "I would do something I felt was right even if it violates ethics.", "effects": {"auth": -1, "right": -1, "prog": -1}},
+    {"id": 38, "question": "My immune system is strong.", "effects": {"auth": -1, "right": -1}},
+    {"id": 39, "question": "I am highly skilled at physical activities, like sports or darts.", "effects": {"auth": -1, "right": -1}},
+    //yellow questions
+    {"id": 40, "question": "I am a religious person.", "effects": {"auth": -1, "right": 1, "prog": 1}},
+    {"id": 41, "question": "People describe me as a good listener.", "effects": {"auth": -1, "right": 1}},
+    {"id": 42, "question": "I love to garden or take care of animals.", "effects": {"auth": -1, "right": 1}},
+    {"id": 43, "question": "I am very perceptive.", "effects": {"auth": -1, "right": 1}},
+    {"id": 44, "question": "Everything is ultimately just leaves blowing in the wind, nothing is eternal.", "effects": {"auth": -1, "right": 1, "prog": -1}},
+    {"id": 45, "question": "I often find myself mediating disputes.", "effects": {"auth": -1, "right": 1}},
+    {"id": 46, "question": "When I'm with friends, I usually like to spend relaxing time with them rather than high-energy activities.", "effects": {"auth": -1, "right": 1}},
+    {"id": 47, "question": "I am not easily fooled.", "effects": {"auth": -1, "right": 1}},
+    //light questions
+    {"id": 48, "question": "I believe in the monotheistic God.", "effects": {"prog": 1}},
+    {"id": 49, "question": "I am very organized.", "effects": {"prog": 1}},
+    {"id": 50, "question": "There is an objective morality.", "effects": {"prog": 1}},
+    {"id": 51, "question": "Rules and regulations are very important.", "effects": {"prog": 1}},
+    //dark questions
+    {"id": 52, "question": "There are many truths for different people.", "effects": {"prog": -1}},
+    {"id": 53, "question": "It's usually good to shake-up the status quo.", "effects": {"prog": -1}},
+    {"id": 54, "question": "Organized religion is a corruption of spirituality.", "effects": {"prog": -1}},
+    {"id": 55, "question": "Better to rule in hell than serve in heaven.", "effects": {"prog": -1}},
+];
