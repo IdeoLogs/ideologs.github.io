@@ -38,7 +38,7 @@ questions =  [
     {"id": 30, "question": "There should be no authority over me.", "effects": {"auth": 1, "right": -1, "prog": -1}},
     {"id": 31, "question": "I am strong-willed.", "effects": {"auth": 1, "right": -1}},
     //red questions
-    {"id": 32, "question": "I like working to bring about the vision of a leader I think is good.", "effects": {"auth": -1, "right": -1, "prog": 1}},
+    {"id": 32, "question": "I like working to bring about the vision of a leader whom I respect.", "effects": {"auth": -1, "right": -1, "prog": 1}},
     {"id": 33, "question": "I identify more with my body than my mind.", "effects": {"auth": -1, "right": -1}},
     {"id": 34, "question": "I exercise often.", "effects": {"auth": -1, "right": -1}},
     {"id": 35, "question": "I care more about practical concerns than ideological ones.", "effects": {"auth": -1, "right": -1}},
