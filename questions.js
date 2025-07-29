@@ -4,6 +4,8 @@ questions =  [
     {"id": 1, "question": "I hate being told what to do.", "effects": {"auth": 2}},
     {"id": 2, "question": "It's hard for me to trust other people.", "effects": {"auth": 2}},
     {"id": 3, "question": "I'm often in my own head.", "effects": {"auth": 2}},
+    {"id": 56, "question": "I keep to myself.", "effects": {"auth": 2}},
+    {"id": 57, "question": "It's often hard for me to relate to the feelings of others.", "effects": {"auth": 2}},
     //collectivist questions
     {"id": 4, "question": "I fit into the culture around me.", "effects": {"auth": -2}},
     {"id": 5, "question": "When there's a party I like to be with everybody else.", "effects": {"auth": -2}},
@@ -71,6 +73,4 @@ questions =  [
     {"id": 53, "question": "It's usually good to shake-up the status quo.", "effects": {"prog": -1}},
     {"id": 54, "question": "Organized religion is a corruption of spirituality.", "effects": {"prog": -1}},
     {"id": 55, "question": "Better to rule in hell than serve in heaven.", "effects": {"prog": -1}},
-    {"id": 56, "question": "I keep to myself.", "effects": {"auth": 2}},
-    {"id": 57, "question": "It's often hard for me to understand the feelings of others.", "effects": {"auth": 2}},
 ];
