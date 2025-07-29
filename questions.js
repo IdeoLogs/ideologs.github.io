@@ -53,14 +53,14 @@ questions =  [
     {"id": 36, "question": "I am a good team player.", "effects": {"auth": -1, "right": -1}},
     {"id": 37, "question": "I would do something I felt was right even if it violates ethics.", "effects": {"auth": -1, "right": -1, "prog": -1}},
     {"id": 38, "question": "It is easy for me to find comradery.", "effects": {"auth": -1, "right": -1}},
-    {"id": 39, "question": "I am highly skilled at physical activities, like sports or darts.", "effects": {"auth": -1, "right": -1}},
+    {"id": 39, "question": "I am skilled at physical activities, like sports or darts.", "effects": {"auth": -1, "right": -1}},
     //yellow questions
-    {"id": 40, "question": "I am a religious person.", "effects": {"auth": -1, "right": 1, "prog": 1}},
+    {"id": 40, "question": "I am a spiritual person.", "effects": {"auth": -1, "right": 1}},
     {"id": 41, "question": "People describe me as a good listener.", "effects": {"auth": -1, "right": 1}},
     {"id": 42, "question": "I love to garden or take care of animals.", "effects": {"auth": -1, "right": 1}},
     {"id": 43, "question": "I am very perceptive.", "effects": {"auth": -1, "right": 1}},
     {"id": 44, "question": "Everything is ultimately just leaves blowing in the wind, nothing is eternal.", "effects": {"auth": -1, "right": 1, "prog": -1}},
-    {"id": 45, "question": "I often find myself mediating disputes.", "effects": {"auth": -1, "right": 1}},
+    {"id": 45, "question": "We should all seek to be part of something greater than ourselves.", "effects": {"auth": -1, "right": 1, "prog": 1}},
     {"id": 46, "question": "When I'm with friends, I usually like to spend relaxing time with them rather than high-energy activities.", "effects": {"auth": -1, "right": 1}},
     {"id": 47, "question": "I am not easily fooled.", "effects": {"auth": -1, "right": 1}},
     //light questions
