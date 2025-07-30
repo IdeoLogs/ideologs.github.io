@@ -21,7 +21,7 @@ questions =  [
     {"id": 16, "question": "I am usually a quiet person.", "effects": {"right": 2}},
     {"id": 17, "question": "I am in control of my emotions.", "effects": {"right": 2}},
     //passionate questions
-    {"id": 18, "question": "I struggle to contain my emotions.", "effects": {"right": -2}},
+    {"id": 18, "question": "I am prone to outbursts of emotion.", "effects": {"right": -2}},
     {"id": 19, "question": "I am very expressive.", "effects": {"right": -2}},
     {"id": 20, "question": "People know what I'm feeling.", "effects": {"right": -2}},
     {"id": 21, "question": "I like to dance.", "effects": {"right": -2}},
@@ -61,7 +61,7 @@ questions =  [
     {"id": 51, "question": "I am very perceptive.", "effects": {"auth": -1, "right": 1, "yellow": 1}},
     {"id": 52, "question": "Everything is ultimately just leaves blowing in the wind, nothing is eternal.", "effects": {"auth": -1, "right": 1, "prog": -1, "yellow": 1}},
     {"id": 53, "question": "We should all seek to be part of something greater than ourselves.", "effects": {"auth": -1, "right": 1, "prog": 1, "yellow": 1}},
-    {"id": 54, "question": "When I'm with friends, I usually like to spend relaxing time with them rather than high-energy activities.", "effects": {"auth": -1, "right": 1, "yellow": 1}},
+    {"id": 54, "question": "When I'm with friends, I prefer relaxing activities to high energy ones.", "effects": {"auth": -1, "right": 1, "yellow": 1}},
     {"id": 55, "question": "I am not easily fooled.", "effects": {"auth": -1, "right": 1, "yellow": 1}},
     //light questions
     {"id": 56, "question": "I believe in the monotheistic God.", "effects": {"prog": 1}},
