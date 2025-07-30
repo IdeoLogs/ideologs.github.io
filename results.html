@@ -34,6 +34,9 @@
         y_axis  = parseFloat(urlParams.get("auth"))
         z_axis  = parseFloat(urlParams.get("prog"))
         b_axis  = parseFloat(urlParams.get("blue"))
+        r_axis  = parseFloat(urlParams.get("red"))
+        y_axis  = parseFloat(urlParams.get("yellow"))
+        p_axis  = parseFloat(urlParams.get("purple"))
     
         window.onload = function() {
             var background = new Image();
@@ -69,6 +72,9 @@
                 ctx.fillText("Light / Dark Axis (z): " + z_axis, 725, 1525)
 
                 ctx.fillText("Blue Score: " + b_axis, 1200, 300)
+                ctx.fillText("Purple Score: " + p_axis, 1200, 1200)
+                ctx.fillText("Yellow Score: " + y_axis, 600, 300)
+                ctx.fillText("Red Score: " + r_axis, 1200, 300)
                 ctx.textAlign="right"
                 ctx.font="60px Montserrat"
     
