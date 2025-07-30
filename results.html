@@ -33,10 +33,10 @@
         x_axis  = parseFloat(urlParams.get("right"))
         y_axis  = parseFloat(urlParams.get("auth"))
         z_axis  = parseFloat(urlParams.get("prog"))
-        b_axis  = Math.round(parseFloat(urlParams.get("blue")) + 10, 2)
-        r_axis  = Math.round(parseFloat(urlParams.get("red")) + 10, 2)
-        ye_axis = Math.round(parseFloat(urlParams.get("yellow")) + 10, 2)
-        p_axis  = Math.round(parseFloat(urlParams.get("purple")) + 10, 2)
+        b_axis  = (parseFloat(urlParams.get("blue")) + 10, 2).toFixed(2)
+        r_axis  = (parseFloat(urlParams.get("red")) + 10, 2).toFixed(2)
+        ye_axis = (parseFloat(urlParams.get("yellow")) + 10, 2).toFixed(2)
+        p_axis  = (parseFloat(urlParams.get("purple")) + 10, 2).toFixed(2)
     
         window.onload = function() {
             var background = new Image();
