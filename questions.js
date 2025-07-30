@@ -28,7 +28,7 @@ questions =  [
     {"id": 22, "question": "I am often overwhelmed by my emotions.", "effects": {"right": -2}},
     {"id": 23, "question": "I often express my love for others.", "effects": {"right": -2}},
     //blue questions
-    {"id": 24, "question": "Truth is the most important thing to me.", "effects": {"auth": 1, "right": 1, "prog": 1}},
+    {"id": 24, "question": "Truth is the most important thing to me.", "effects": {"auth": 1, "right": 1, "prog": 1, "blue": 1}},
     {"id": 25, "question": "I like to read.", "effects": {"auth": 1, "right": 1}},
     {"id": 26, "question": "I enjoy mathematics.", "effects": {"auth": 1, "right": 1}},
     {"id": 27, "question": "I am willing to investigate thoughts which scare myself or others.", "effects": {"auth": 1, "right": 1, "prog": -1}},
