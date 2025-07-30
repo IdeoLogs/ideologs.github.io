@@ -35,7 +35,7 @@
         z_axis  = parseFloat(urlParams.get("prog"))
         b_axis  = parseFloat(urlParams.get("blue"))
         r_axis  = parseFloat(urlParams.get("red"))
-        y_axis  = parseFloat(urlParams.get("yellow"))
+        ye_axis  = parseFloat(urlParams.get("yellow"))
         p_axis  = parseFloat(urlParams.get("purple"))
     
         window.onload = function() {
@@ -72,6 +72,7 @@
                 ctx.fillText("Light / Dark Axis (z): " + z_axis, 725, 1525)
 
                 ctx.fillText("Blue Score: " + b_axis, 1200, 300)
+                ctx.fillText("Red Score: " + r_axis, 500, 1200)
                 
                 ctx.textAlign="right"
                 ctx.font="60px Montserrat"
